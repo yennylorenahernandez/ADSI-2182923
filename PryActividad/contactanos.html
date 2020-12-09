@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <div class="nav-wrapper">
+          <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="brand-logo">SENA</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="conocenos.html">Conócenos</a></li>
+            <li><a href="sedes.html">Sedes</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+            <li><a href="index.html">Registrarme</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="input-field aligne left">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="userName" type="text" class="validate">
+            <label for="userName">Nombre</label>
+            <div class="input-field aligne left">
+                <i class="material-icons prefix">email</i>
+                <input id="userEmail" type="email" class="validate">
+                <label for="userEmail">Correo Electrónico</label>
+                <span class="helper-text" data-error="Dominio no establecido" data-success="right">Helper text</span>
+                <div class="input-field aligne left">
+                    <i class="material-icons prefix">wysiwyg</i>
+                    <input id="asunto" type="text" class="validate">
+                    <label for="asunto">Asunto</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Ingrese su solicitud</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+              </div>
+                
+ 
+  </div>
+
+</div>
+<script src="js/materialize.min.js"></script>
+</body>
+</html>
